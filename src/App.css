@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/*comman css-------------------------------------*/
+*{
+  box-sizing: border-box;
+}
+#root{
+/*  overflow: hidden;*/
+}
+.active-link{
+  color: black;
+}
+.height-comman{
+  min-height: 100vh;
+}
+.ff-p{
+  font-family: Poppins;
+}
+.ff-ml{
+  font-family: Montserrat;
+  font-weight: 300;
+}
+.ul-common{
+  padding:0px;
+}
+/*>scrollbar--------------------------------*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5e17eb;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: red;
+}
+.heading-comman{
+  text-align: center;
+  color: #5e17eb;
+/*  color: white;*/
+  padding: 4vw 0px;
+  font-size: 5vw;
+  
+}
+.about-heading-common{
+  color: #5e17eb;
+  font-size: 3vw;
+  padding: 1.5vw 0px;
+  position: relative;
+  margin-top: 2vw;
+}
+
+.nav-social-icon{
+  font-size: 2vw;
+  color: black;
+  display: inline-block;
+  transition: .3s;
+  text-align: center;
+  width: 33.33%;
+  margin: 1.62vw 0px;
+}
+.nav-social-icon:hover{
+  color: white;
+  transform: scale(1.5);
+}
+/*mycss------------------------------------------------------------*/
+@font-face{
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: normal;
+  src:url(./fonts/Poppins-Bold.ttf);
+}
+@font-face{
+  font-family: Montserrat;
+  font-weight: 300;
+  src:url(./fonts/Montserrat-Light.ttf);
+}
+@font-face{
+  font-family: Montserrat;
+  font-weight: 400;
+  src:url(./fonts/Montserrat-Regular.ttf);
+}
+.nav-outer-box{
+  background-color: #5e17eb;
+  position: relative;
+}
+.nav-outer-box::after{
+  content: "";
+  width: 1%;
+  height: 100%;
+  right: -.6vw;
+  top: 0;
+  background-color: #5e17eb;
+  position: absolute;
+}
+.main-content-box{
+/*  background-color: #5e17eb;*/
+  background-color: black;
+
+}
+
+
+
+/*media query===========================================================*/
+@media screen and (max-width: 767px) {
+  
+   .heading-comman{
+    font-size: 10vw;
+    padding: 12vw 0px;
+  }
+  .about-heading-common{
+  font-size: 7vw;
+  }
+  .nav-outer-box{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  }
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+  .heading-comman{
+    font-size: 8vw;
+  }
+  .nav-outer-box{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  }
+}

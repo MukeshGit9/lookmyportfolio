@@ -1,0 +1,130 @@
+.about-paragraph{
+	color: white;
+	font-weight: light;
+	font-size: 1.6vw;
+	text-align: justify;
+	padding: 2.5vw 0px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+.about-paragraph:hover{
+	font-style: normal;
+}
+
+.about-heading-common::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1%;
+	right: 0;
+	top: 100%;
+	background-color: #5e17eb;
+}
+.perosnal-heading::before{
+	content: "";
+	position: absolute;
+	height: 6vw;
+	width: 6vw;
+/*	left: 91%;*/
+	right: 0%;
+	top: 0;
+	background-color: yellow;
+	border-radius: 100%;
+	z-index: 1;
+	background-image: url(../img/my-photo.jpg);
+	background-origin: center;
+	background-size: cover;
+	transition: .5s linear;
+}
+.perosnal-heading:hover.perosnal-heading::before{
+	right: 69%;
+	transform: rotate(360deg);
+}
+
+.about-personal-item{
+	font-size: 1.4vw;
+	color: #5e17eb;
+	padding-top: .8vw;
+	padding-bottom: .8vw;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+.about-personal-item span{
+	font-weight: light;
+	font-size: 1.3vw;
+	margin-left: 1vw;
+	color: white;
+	font-weight: 300;
+
+}
+
+.about-interest-item{
+	color: white;
+	font-size: 1.4vw;
+	list-style-type: none;
+	position: relative;
+	padding-left: 2.5vw;
+	font-family: Montserrat;
+	font-weight: 300;
+	margin: .4vw 0px;
+}
+.about-interest-item::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 1%;
+	top: 0%;
+	left: .2vw;
+	background-color: #5e17eb;
+}
+
+
+
+
+/*media query===========================================================*/
+@media screen and (max-width: 767px) {
+	 .about-paragraph{
+		font-size: 4vw;
+		letter-spacing: 0.5px;
+	}
+	
+	.about-interest-item{
+	font-size: 3vw;
+	padding-left: 4.5vw;
+	}
+	.perosnal-heading::before{
+		top: 20%;
+		height: 7vw;
+		width: 7vw;
+	}
+	.perosnal-heading:hover.perosnal-heading::before{
+	right: 52%;
+	}
+	
+	.about-personal-item{
+	font-size: 4.5vw;
+	}
+	.about-personal-item span{
+		font-size: 3.5vw;
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1012px){
+	.perosnal-heading:hover.perosnal-heading::before{
+		right: 0%;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 767px){
+	.perosnal-heading:hover.perosnal-heading::before{
+		right: 56%;
+	}
+}
+@media screen and (max-width: 576px){
+	.perosnal-heading::before{
+		top: 10%;
+		height: 8vw;
+		width: 8vw;
+	}
+	.perosnal-heading:hover.perosnal-heading::before{
+		right: 53%;
+	}
+}

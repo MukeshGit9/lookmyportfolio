@@ -1,0 +1,90 @@
+.home-box-outer{
+	padding: 6.9vw 0px;
+}
+.home-box{
+	padding: 0px;
+}
+.home-image-box{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 100%;
+}
+.home-image-box:hover .my-photo{
+	transform: scale(1.2);
+}
+
+.my-photo{
+	width: 100%;
+	display: inline-block;
+	transition: .3s linear;
+}
+
+.home-hi-text{
+	font-size: 3.5vw;
+	font-weight: light;
+	color: white;
+}
+
+.home-name-text{
+	font-size: 8vw;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+	line-height: .8;
+	padding: 3vw 0px;
+}
+.home-dev-text{
+	font-size: 1.8vw;
+	font-weight: lighter;
+	color: #5e17eb;
+	text-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+}
+
+
+
+
+/*media query==========================================================*/
+@media screen and (max-width: 767px) {
+	.home-name-mobile{
+		padding-top: 7vw;
+		text-align: center;
+	}
+	 .home-hi-text{
+		font-size: 6.5vw;
+	}
+
+	.home-name-text{
+		font-size: 9.8vw;
+		padding: 4vw 0px;
+	}
+	.home-dev-text{
+		font-size: 4.5vw;		
+	}
+}
+
+@media screen and (max-width: 576px){
+	.home-box{
+	padding: 25vw 0px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.home-box{
+	padding: 3vw 0px;
+	}
+	.home-name-mobile{
+		padding-top: 7vw;
+		text-align: center;
+	}
+	 .home-hi-text{
+		font-size: 5vw;
+	}
+
+	.home-name-text{
+		font-size: 7vw;
+		padding: 4vw 0px;
+	}
+	.home-dev-text{
+		font-size: 3.5vw;		
+	}
+}
