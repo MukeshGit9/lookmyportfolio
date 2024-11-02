@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lookmyportfolio/static/css/main.0d512868.css",
-    "main.js": "/lookmyportfolio/static/js/main.cd467db0.js",
+    "main.js": "/lookmyportfolio/static/js/main.2188f58a.js",
     "static/js/453.6b750f04.chunk.js": "/lookmyportfolio/static/js/453.6b750f04.chunk.js",
     "static/media/my-photo.jpg": "/lookmyportfolio/static/media/my-photo.e4c1fe685507a56d91f3.jpg",
     "static/media/Montserrat-Light.ttf": "/lookmyportfolio/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
@@ -19,11 +19,11 @@
     "static/media/logo-purple.png": "/lookmyportfolio/static/media/logo-purple.c1e64cc6b18c9e1c15d1.png",
     "index.html": "/lookmyportfolio/index.html",
     "main.0d512868.css.map": "/lookmyportfolio/static/css/main.0d512868.css.map",
-    "main.cd467db0.js.map": "/lookmyportfolio/static/js/main.cd467db0.js.map",
+    "main.2188f58a.js.map": "/lookmyportfolio/static/js/main.2188f58a.js.map",
     "453.6b750f04.chunk.js.map": "/lookmyportfolio/static/js/453.6b750f04.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d512868.css",
-    "static/js/main.cd467db0.js"
+    "static/js/main.2188f58a.js"
   ]
 }
