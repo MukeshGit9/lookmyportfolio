@@ -22,7 +22,7 @@ function App() {
 
         <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10 col-xxl-10 main-content-box height-comman">
         <Routes>
-          <Route path="/" element={<Home name="Mukesh Kumar"/>} />
+          <Route path="/lookmyportfolio" element={<Home name="Mukesh Kumar"/>} />
           <Route path="/about" exact element={<About heading="About" about={aboutArray}/>} />
           <Route path="/education" exact element={<Education heading="Education"/>} />
           <Route path="/skills" exact element={<Skills heading="Skills"/>} />
