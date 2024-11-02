@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aec42ed.css",
-    "main.js": "/static/js/main.fda228b7.js",
-    "static/js/453.6b750f04.chunk.js": "/static/js/453.6b750f04.chunk.js",
-    "static/media/my-photo.jpg": "/static/media/my-photo.e4c1fe685507a56d91f3.jpg",
-    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
-    "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
-    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
-    "static/media/php.png": "/static/media/php.144ab506ddba211b3555.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.67ac0c1694ff8db9305f.png",
-    "static/media/html.png": "/static/media/html.9b674892ef5960bafca3.png",
-    "static/media/css.png": "/static/media/css.8ea58d31a9d39dd59031.png",
-    "static/media/jquery.png": "/static/media/jquery.1cb70d1001e5d3e122ca.png",
-    "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
-    "static/media/github.png": "/static/media/github.1e39a6e4e7af13d49f1a.png",
-    "static/media/mysql.png": "/static/media/mysql.a04abbf76b39676bc4d9.png",
-    "static/media/logo-purple.png": "/static/media/logo-purple.c1e64cc6b18c9e1c15d1.png",
-    "index.html": "/index.html",
-    "main.3aec42ed.css.map": "/static/css/main.3aec42ed.css.map",
-    "main.fda228b7.js.map": "/static/js/main.fda228b7.js.map",
-    "453.6b750f04.chunk.js.map": "/static/js/453.6b750f04.chunk.js.map"
+    "main.css": "/lookmyportfolio/static/css/main.0d512868.css",
+    "main.js": "/lookmyportfolio/static/js/main.6fcaa9cc.js",
+    "static/js/453.6b750f04.chunk.js": "/lookmyportfolio/static/js/453.6b750f04.chunk.js",
+    "static/media/my-photo.jpg": "/lookmyportfolio/static/media/my-photo.e4c1fe685507a56d91f3.jpg",
+    "static/media/Montserrat-Light.ttf": "/lookmyportfolio/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
+    "static/media/Montserrat-Regular.ttf": "/lookmyportfolio/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
+    "static/media/react.png": "/lookmyportfolio/static/media/react.81ed438b18e24116794d.png",
+    "static/media/Poppins-Bold.ttf": "/lookmyportfolio/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/php.png": "/lookmyportfolio/static/media/php.144ab506ddba211b3555.png",
+    "static/media/bootstrap.png": "/lookmyportfolio/static/media/bootstrap.67ac0c1694ff8db9305f.png",
+    "static/media/html.png": "/lookmyportfolio/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/css.png": "/lookmyportfolio/static/media/css.8ea58d31a9d39dd59031.png",
+    "static/media/jquery.png": "/lookmyportfolio/static/media/jquery.1cb70d1001e5d3e122ca.png",
+    "static/media/vscode.png": "/lookmyportfolio/static/media/vscode.d793c746fbc937f66e3d.png",
+    "static/media/github.png": "/lookmyportfolio/static/media/github.1e39a6e4e7af13d49f1a.png",
+    "static/media/mysql.png": "/lookmyportfolio/static/media/mysql.a04abbf76b39676bc4d9.png",
+    "static/media/logo-purple.png": "/lookmyportfolio/static/media/logo-purple.c1e64cc6b18c9e1c15d1.png",
+    "index.html": "/lookmyportfolio/index.html",
+    "main.0d512868.css.map": "/lookmyportfolio/static/css/main.0d512868.css.map",
+    "main.6fcaa9cc.js.map": "/lookmyportfolio/static/js/main.6fcaa9cc.js.map",
+    "453.6b750f04.chunk.js.map": "/lookmyportfolio/static/js/453.6b750f04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aec42ed.css",
-    "static/js/main.fda228b7.js"
+    "static/css/main.0d512868.css",
+    "static/js/main.6fcaa9cc.js"
   ]
 }
